@@ -7,12 +7,12 @@
 <web-app>
 
   <servlet>
-    <servlet-name>controlServlet</servlet-name>
+    <servlet-name>FirstServlet</servlet-name>
     <servlet-class>com.thernat.test.FirstServlet</servlet-class>
   </servlet>
 
   <servlet-mapping>
-    <servlet-name>firstServlet</servlet-name>
+    <servlet-name>FirstServlet</servlet-name>
     <url-pattern>/hi</url-pattern>
   </servlet-mapping>
 </web-app>
